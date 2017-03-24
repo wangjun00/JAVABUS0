@@ -1,6 +1,6 @@
 package com.wangjun00.javacore;
 
-      class TestType {
+      class SanPang {
        public static void main(String[ ] args) {
     	   
     	   
