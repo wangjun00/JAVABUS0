@@ -1,12 +1,19 @@
 package com.wangjun01.javacore;
 
-public class StudentsBiz {
-	
-		String[ ] names = new String[30];   
-		public void addName(String name) {
-			
-		}
-		public void showNames() { //显示全部学生姓名		}
+import com.sun.webkit.ContextMenu.ShowContext;
 
+public class Car {
+//	private static final char[] Car = null;
+	private String name = "qq";
+	private int site = 4;
 
-}}
+	Car() {
+		System.out.println("这辆汽车的型号是：" + name +"\n"+ "能坐：" + site);
+
+	}
+
+	public String showCar() {
+
+		return name;
+	}
+}
